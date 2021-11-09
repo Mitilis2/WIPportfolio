@@ -1,0 +1,38 @@
+/* General Styling */
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  background-color: red;
+  display: flex;
+}
+ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+li {
+  list-style: none;
+}
+.navlink {
+  text-decoration: none;
+  color: white;
+  font-size: 2em;
+}
+header {
+  background-color: orange;
+}
+
+.project-container {
+  background-color: yellow;
+}
+#contact {
+  background-color: green;
+}
+footer {
+  background-color: purple;
+}
